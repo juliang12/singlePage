@@ -1,0 +1,65 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.containerFuture{
+    width: 100%;
+    display: flex;
+}
+
+.future1{
+    width: 100%;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start
+}
+
+.future1 h3{
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+.future1 p{
+    max-width: 40ch;
+    text-align: start;
+}
+
+.future2{
+width: 900px;
+height: 700px;
+background-image: url(../../assets/images/illustration-editor-desktop.svg);
+background-size: cover;
+}
+
+@media screen and (max-width: 760px) {
+    .containerFuture{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .future2{
+        width: 350px;
+        height: 350px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .future1{
+        margin-top: 30px;
+        margin-bottom: 14rem;
+    }
+}
